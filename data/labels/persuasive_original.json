@@ -1,0 +1,83 @@
+{
+  "transcript": "persuasive_original.txt",
+  "baseline": "data\\baseline\\persuasive_original__good.wav",
+  "baseline_provenance": "cached-baseline",
+  "baseline_duration_s": 28.58,
+  "mirrors": [
+    {
+      "level": "L1",
+      "file": "data\\mirrors\\persuasive_original__L1.wav",
+      "duration_s": 26.97,
+      "injected": [
+        {
+          "type": "tempo_drift",
+          "detail": "+6% rate (resampled, clean)",
+          "severity": "subtle"
+        }
+      ]
+    },
+    {
+      "level": "L2-rushed",
+      "file": "data\\mirrors\\persuasive_original__L2_rushed.wav",
+      "duration_s": 22.33,
+      "injected": [
+        {
+          "type": "rushed",
+          "detail": "+28% rate globally",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L2-slow",
+      "file": "data\\mirrors\\persuasive_original__L2_slow.wav",
+      "duration_s": 36.65,
+      "injected": [
+        {
+          "type": "dragged",
+          "detail": "-22% rate globally (resampled, pitch -4.3st)",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L2-pause",
+      "file": "data\\mirrors\\persuasive_original__L2_pause.wav",
+      "duration_s": 30.18,
+      "injected": [
+        {
+          "start": 14.29,
+          "end": 15.89,
+          "type": "inserted_pause",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L2-mumble",
+      "file": "data\\mirrors\\persuasive_original__L2_mumble.wav",
+      "duration_s": 28.58,
+      "injected": [
+        {
+          "type": "mumble",
+          "detail": "LP 1.4kHz + noise",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L3",
+      "file": "data\\mirrors\\persuasive_original__L3.wav",
+      "duration_s": 22.85,
+      "injected": [
+        {
+          "type": "combined_egregious",
+          "detail": "fast+muffled+pause",
+          "severity": "egregious",
+          "start": 7.58,
+          "end": 8.78
+        }
+      ]
+    }
+  ]
+}

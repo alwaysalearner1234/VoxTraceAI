@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.tmp.mp3
+*.tmp.wav
+.pytest_cache/
+.venv/
+venv/
+.streamlit/
+*.log

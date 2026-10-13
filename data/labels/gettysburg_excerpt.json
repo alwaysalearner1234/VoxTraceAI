@@ -1,0 +1,83 @@
+{
+  "transcript": "gettysburg_excerpt.txt",
+  "baseline": "data\\baseline\\gettysburg_excerpt__good.wav",
+  "baseline_provenance": "cached-baseline",
+  "baseline_duration_s": 24.29,
+  "mirrors": [
+    {
+      "level": "L1",
+      "file": "data\\mirrors\\gettysburg_excerpt__L1.wav",
+      "duration_s": 22.91,
+      "injected": [
+        {
+          "type": "tempo_drift",
+          "detail": "+6% rate (resampled, clean)",
+          "severity": "subtle"
+        }
+      ]
+    },
+    {
+      "level": "L2-rushed",
+      "file": "data\\mirrors\\gettysburg_excerpt__L2_rushed.wav",
+      "duration_s": 18.98,
+      "injected": [
+        {
+          "type": "rushed",
+          "detail": "+28% rate globally",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L2-slow",
+      "file": "data\\mirrors\\gettysburg_excerpt__L2_slow.wav",
+      "duration_s": 31.14,
+      "injected": [
+        {
+          "type": "dragged",
+          "detail": "-22% rate globally (resampled, pitch -4.3st)",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L2-pause",
+      "file": "data\\mirrors\\gettysburg_excerpt__L2_pause.wav",
+      "duration_s": 25.89,
+      "injected": [
+        {
+          "start": 12.14,
+          "end": 13.74,
+          "type": "inserted_pause",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L2-mumble",
+      "file": "data\\mirrors\\gettysburg_excerpt__L2_mumble.wav",
+      "duration_s": 24.29,
+      "injected": [
+        {
+          "type": "mumble",
+          "detail": "LP 1.4kHz + noise",
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "level": "L3",
+      "file": "data\\mirrors\\gettysburg_excerpt__L3.wav",
+      "duration_s": 19.6,
+      "injected": [
+        {
+          "type": "combined_egregious",
+          "detail": "fast+muffled+pause",
+          "severity": "egregious",
+          "start": 6.44,
+          "end": 7.64
+        }
+      ]
+    }
+  ]
+}
